@@ -1,0 +1,184 @@
+[
+  {
+    "1": {
+      "deployment_id": 1,
+      "reservation_id": 1,
+      "vehicle_id": 15,
+      "operator_id": 8,
+      "operator_name": "Primrose Morton",
+      "pickup_date": "2020-01-09",
+      "branch_id": 1,
+      "return_date": "2020-01-15"
+    },
+    "2": {
+      "deployment_id": 2,
+      "reservation_id": 2,
+      "vehicle_id": 22,
+      "operator_id": 4,
+      "operator_name": "Cherry Donnelly",
+      "pickup_date": "2020-07-23",
+      "branch_id": 1,
+      "return_date": "2020-07-25"
+    },
+    "3": {
+      "deployment_id": 3,
+      "reservation_id": 3,
+      "vehicle_id": 59,
+      "operator_id": 12,
+      "operator_name": "Paisley Stevenson",
+      "pickup_date": "2020-08-01",
+      "branch_id": 1,
+      "return_date": "2020-08-06"
+    },
+    "4": {
+      "deployment_id": 4,
+      "reservation_id": 6,
+      "vehicle_id": 27,
+      "operator_id": 14,
+      "operator_name": "Ollie Jacobs",
+      "pickup_date": "2020-02-09",
+      "branch_id": 2,
+      "return_date": "2020-02-13"
+    },
+    "5": {
+      "deployment_id": 5,
+      "reservation_id": 7,
+      "vehicle_id": 8,
+      "operator_id": 17,
+      "operator_name": "Haley Whitehead",
+      "pickup_date": "2020-03-25",
+      "branch_id": 2,
+      "return_date": "2020-03-27"
+    },
+    "6": {
+      "deployment_id": 6,
+      "reservation_id": 8,
+      "vehicle_id": 67,
+      "operator_id": 20,
+      "operator_name": "Noelle Yu",
+      "pickup_date": "2020-05-03",
+      "branch_id": 2,
+      "return_date": "2020-05-14"
+    },
+    "7": {
+      "deployment_id": 7,
+      "reservation_id": 11,
+      "vehicle_id": 75,
+      "operator_id": 24,
+      "operator_name": "Morikawa Masaaki",
+      "pickup_date": "2020-01-19",
+      "branch_id": 3,
+      "return_date": "2020-01-26"
+    },
+    "8": {
+      "deployment_id": 8,
+      "reservation_id": 12,
+      "vehicle_id": 57,
+      "operator_id": 27,
+      "operator_name": "Harvey Manning",
+      "pickup_date": "2020-03-07",
+      "branch_id": 3,
+      "return_date": "2020-03-09"
+    },
+    "9": {
+      "deployment_id": 9,
+      "reservation_id": 13,
+      "vehicle_id": 34,
+      "operator_id": 31,
+      "operator_name": "Alaric Vargas",
+      "pickup_date": "2020-07-28",
+      "branch_id": 3,
+      "return_date": "2020-08-04"
+    },
+    "10": {
+      "deployment_id": 10,
+      "reservation_id": 16,
+      "vehicle_id": 65,
+      "operator_id": 33,
+      "operator_name": "Khalil Mina",
+      "pickup_date": "2020-02-04",
+      "branch_id": 4,
+      "return_date": "2020-02-07"
+    },
+    "11": {
+      "deployment_id": 11,
+      "reservation_id": 17,
+      "vehicle_id": 74,
+      "operator_id": 40,
+      "operator_name": "Frank Moreno",
+      "pickup_date": "2020-03-13",
+      "branch_id": 4,
+      "return_date": "2020-03-16"
+    },
+    "12": {
+      "deployment_id": 12,
+      "reservation_id": 18,
+      "vehicle_id": 14,
+      "operator_id": 38,
+      "operator_name": "Adrian Chasey",
+      "pickup_date": "2020-04-25",
+      "branch_id": 4,
+      "return_date": "2020-05-01"
+    },
+    "13": {
+      "deployment_id": 13,
+      "reservation_id": 19,
+      "vehicle_id": 21,
+      "operator_id": 34,
+      "operator_name": "Sayyid Seray",
+      "pickup_date": "2020-06-16",
+      "branch_id": 4,
+      "return_date": "2020-06-22"
+    },
+    "14": {
+      "deployment_id": 14,
+      "reservation_id": "None",
+      "vehicle_id": 28,
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "pickup_date": "2020-07-15",
+      "branch_id": 4,
+      "return_date": "2020-07-29"
+    },
+    "15": {
+      "deployment_id": 15,
+      "reservation_id": "None",
+      "vehicle_id": 48,
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "pickup_date": "2020-07-20",
+      "branch_id": 4,
+      "return_date": "2020-07-29"
+    },
+    "16": {
+      "deployment_id": 16,
+      "reservation_id": "None",
+      "vehicle_id": 56,
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "pickup_date": "2020-07-22",
+      "branch_id": 4,
+      "return_date": "2020-07-29"
+    },
+    "17": {
+      "deployment_id": 17,
+      "reservation_id": "None",
+      "vehicle_id": 91,
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "pickup_date": "2020-07-27",
+      "branch_id": 4,
+      "return_date": "2020-07-29"
+    },
+    "18": {
+      "deployment_id": 18,
+      "reservation_id": "None",
+      "vehicle_id": 2,
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "pickup_date": "2020-07-29",
+      "branch_id": 4,
+      "return_date": "2020-07-29"
+    }
+  }
+]

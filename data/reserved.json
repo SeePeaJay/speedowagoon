@@ -1,0 +1,184 @@
+[
+  {
+    "1": {
+      "reservation_id": 1,
+      "vehicle_id": 15,
+      "operator_id": 8,
+      "operator_name": "Primrose Morton",
+      "pickup_date": "2020-01-09",
+      "branch_id": 1,
+      "return_date": "2020-01-15"
+    },
+    "2": {
+      "reservation_id": 2,
+      "vehicle_id": 22,
+      "operator_id": 4,
+      "operator_name": "Cherry Donnelly",
+      "pickup_date": "2020-07-23",
+      "branch_id": 1,
+      "return_date": "2020-07-25"
+    },
+    "3": {
+      "reservation_id": 3,
+      "vehicle_id": 59,
+      "operator_id": 12,
+      "operator_name": "Paisley Stevenson",
+      "pickup_date": "2020-08-01",
+      "branch_id": 1,
+      "return_date": "2020-08-06"
+    },
+    "4": {
+      "reservation_id": 4,
+      "vehicle_id": 22,
+      "operator_id": 7,
+      "operator_name": "Karan Moore",
+      "pickup_date": "2020-08-07",
+      "branch_id": 1,
+      "return_date": "2020-08-21"
+    },
+    "5": {
+      "reservation_id": 5,
+      "vehicle_id": 47,
+      "operator_id": 3,
+      "operator_name": "Margaret Barber",
+      "pickup_date": "2020-11-12",
+      "branch_id": 1,
+      "return_date": "2020-11-14"
+    },
+    "6": {
+      "reservation_id": 6,
+      "vehicle_id": 27,
+      "operator_id": 14,
+      "operator_name": "Ollie Jacobs",
+      "pickup_date": "2020-02-09",
+      "branch_id": 2,
+      "return_date": "2020-02-13"
+    },
+    "7": {
+      "reservation_id": 7,
+      "vehicle_id": 8,
+      "operator_id": 17,
+      "operator_name": "Haley Whitehead",
+      "pickup_date": "2020-03-25",
+      "branch_id": 2,
+      "return_date": "2020-03-27"
+    },
+    "8": {
+      "reservation_id": 8,
+      "vehicle_id": 67,
+      "operator_id": 20,
+      "operator_name": "Noelle Yu",
+      "pickup_date": "2020-07-03",
+      "branch_id": 2,
+      "return_date": "2020-07-14"
+    },
+    "9": {
+      "reservation_id": 9,
+      "vehicle_id": 73,
+      "operator_id": 13,
+      "operator_name": "Hadden Poe",
+      "pickup_date": "2020-10-09",
+      "branch_id": 2,
+      "return_date": "2020-10-10"
+    },
+    "10": {
+      "reservation_id": 10,
+      "vehicle_id": 95,
+      "operator_id": 15,
+      "operator_name": "Lois Lane",
+      "pickup_date": "2020-12-16",
+      "branch_id": 2,
+      "return_date": "2020-12-20"
+    },
+    "11": {
+      "reservation_id": 11,
+      "vehicle_id": 75,
+      "operator_id": 24,
+      "operator_name": "Morikawa Masaaki",
+      "pickup_date": "2020-01-19",
+      "branch_id": 3,
+      "return_date": "2020-01-26"
+    },
+    "12": {
+      "reservation_id": 12,
+      "vehicle_id": 57,
+      "operator_id": 27,
+      "operator_name": "Harvey Manning",
+      "pickup_date": "2020-03-07",
+      "branch_id": 3,
+      "return_date": "2020-03-09"
+    },
+    "13": {
+      "reservation_id": 13,
+      "vehicle_id": 34,
+      "operator_id": 31,
+      "operator_name": "Alaric Vargas",
+      "pickup_date": "2020-07-28",
+      "branch_id": 3,
+      "return_date": "2020-08-04"
+    },
+    "14": {
+      "reservation_id": 14,
+      "vehicle_id": 23,
+      "operator_id": 28,
+      "operator_name": "Zeph Hargraves",
+      "pickup_date": "2020-09-16",
+      "branch_id": 3,
+      "return_date": "2020-09-22"
+    },
+    "15": {
+      "reservation_id": 15,
+      "vehicle_id": 98,
+      "operator_id": 30,
+      "operator_name": "Yolanda Jackson",
+      "pickup_date": "2020-12-19",
+      "branch_id": 3,
+      "return_date": "2020-12-24"
+    },
+    "16": {
+      "reservation_id": 16,
+      "vehicle_id": 65,
+      "operator_id": 33,
+      "operator_name": "Khalil Mina",
+      "pickup_date": "2020-02-04",
+      "branch_id": 4,
+      "return_date": "2020-02-07"
+    },
+    "17": {
+      "reservation_id": 17,
+      "vehicle_id": 74,
+      "operator_id": 40,
+      "operator_name": "Frank Moreno",
+      "pickup_date": "2020-03-13",
+      "branch_id": 4,
+      "return_date": "2020-03-16"
+    },
+    "18": {
+      "reservation_id": 18,
+      "vehicle_id": 14,
+      "operator_id": 38,
+      "operator_name": "Adrian Chasey",
+      "pickup_date": "2020-04-25",
+      "branch_id": 4,
+      "return_date": "2020-05-01"
+    },
+    "19": {
+      "reservation_id": 19,
+      "vehicle_id": 21,
+      "operator_id": 34,
+      "operator_name": "Sayyid Seray",
+      "pickup_date": "2020-06-16",
+      "branch_id": 4,
+      "return_date": "2020-06-22"
+    },
+    "20": {
+      "reservation_id": 20,
+      "vehicle_id": 99,
+      "operator_id": 39,
+      "operator_name": "Stephan Hall",
+      "pickup_date": "2020-10-12",
+      "branch_id": 4,
+      "return_date": "2020-10-15"
+    }
+  }
+]

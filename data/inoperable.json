@@ -1,0 +1,44 @@
+[
+  {
+    "1": {
+      "deployment_id": 14,
+      "vehicle_id": 28,
+      "vehicle_name": "Arctic Cat T570",
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "branch_id": 4
+    },
+    "2": {
+      "deployment_id": 15,
+      "vehicle_id": 48,
+      "vehicle_name": "Can-Am OUTLANDER MAX 800R EFI",
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "branch_id": 4
+    },
+    "3": {
+      "deployment_id": 16,
+      "vehicle_id": 56,
+      "vehicle_name": "Triumph DAYTONA 955I",
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "branch_id": 4
+    },
+    "4": {
+      "deployment_id": 17,
+      "vehicle_id": 91,
+      "vehicle_name": "Hyundai ELANTRA",
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "branch_id": 4
+    },
+    "5": {
+      "deployment_id": 18,
+      "vehicle_id": 2,
+      "vehicle_name": "Pontiac WAVE5",
+      "operator_id": 39,
+      "operator_name": "Joeseph Joestar",
+      "branch_id": 4
+    }
+  }
+]
