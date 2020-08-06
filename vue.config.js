@@ -55,4 +55,7 @@ module.exports = {
       importWorkboxFrom: 'local',
     },
   },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/speedowagoon/'
+    : '/',
 }
