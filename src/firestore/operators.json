@@ -1,332 +1,330 @@
 [
   {
-    "1": {
-      "operator_id": 1,
-      "operator_name": "Joseph Joestar",
-      "operator_address": "PH58, 56 Leonard Street",
-      "operator_city": "New York",
-      "operator_phone_number": "+1 212-220-4275",
-      "operator_is_joestar": "Yes"
-    },
-    "2": {
-      "operator_id": 2,
-      "operator_name": "Jotaro Kujo",
-      "operator_address": "1 Kawadocho, Chuo Ward",
-      "operator_city": "Chiba",
-      "operator_phone_number": "+81 42-319-4543",
-      "operator_is_joestar": "Yes"
-    },
-    "3": {
-      "operator_id": 3,
-      "operator_name": "Margaret Barber",
-      "operator_address": "1143 Scenicview Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 214-563-1938",
-      "operator_is_joestar": "No"
-    },
-    "4": {
-      "operator_id": 4,
-      "operator_name": "Cherry Donnelly",
-      "operator_address": "3520 Liberty Street",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 214-982-9254",
-      "operator_is_joestar": "No"
-    },
-    "5": {
-      "operator_id": 5,
-      "operator_name": "Christina Wiley",
-      "operator_address": "3699 Platinum Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 469-502-057",
-      "operator_is_joestar": "No"
-    },
-    "6": {
-      "operator_id": 6,
-      "operator_name": "Keanu Campbell",
-      "operator_address": "1831 Poco Mas Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 214-543-7700",
-      "operator_is_joestar": "No"
-    },
-    "7": {
-      "operator_id": 7,
-      "operator_name": "Karan Moore",
-      "operator_address": "2012 Stoney Lane",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 469-507-9073",
-      "operator_is_joestar": "No"
-    },
-    "8": {
-      "operator_id": 8,
-      "operator_name": "Primrose Morton",
-      "operator_address": "3852 Whispering Pines Circle",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 214-621-4620",
-      "operator_is_joestar": "No"
-    },
-    "9": {
-      "operator_id": 9,
-      "operator_name": "Stacey Rosalynne",
-      "operator_address": "2252 Oliver Street",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 469-223-0026",
-      "operator_is_joestar": "No"
-    },
-    "10": {
-      "operator_id": 10,
-      "operator_name": "Belle Clayton",
-      "operator_address": "3936 High Summit Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 972-241-0881",
-      "operator_is_joestar": "No"
-    },
-    "11": {
-      "operator_id": 11,
-      "operator_name": "Jim Chasey",
-      "operator_address": "6010 Park Manor Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 972-225-3310",
-      "operator_is_joestar": "No"
-    },
-    "12": {
-      "operator_id": 12,
-      "operator_name": "Paisley Stevenson",
-      "operator_address": "3936 High Summit Drive",
-      "operator_city": "Dallas",
-      "operator_phone_number": "+1 972-241-0881",
-      "operator_is_joestar": "No"
-    },
-    "13": {
-      "operator_id": 13,
-      "operator_name": "Hadden Poe",
-      "operator_address": "1604 Webster Street",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-723-6391",
-      "operator_is_joestar": "No"
-    },
-    "14": {
-      "operator_id": 14,
-      "operator_name": "Ollie Jacobs",
-      "operator_address": "9496 Greenfield Street",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-366-1092",
-      "operator_is_joestar": "No"
-    },
-    "15": {
-      "operator_id": 15,
-      "operator_name": "Lois Lane",
-      "operator_address": "8937 Summit Court",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-742-4096",
-      "operator_is_joestar": "No"
-    },
-    "16": {
-      "operator_id": 16,
-      "operator_name": "Sibley Feron",
-      "operator_address": "2368 Rhode Island Avenue",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-338-9755",
-      "operator_is_joestar": "No"
-    },
-    "17": {
-      "operator_id": 17,
-      "operator_name": "Haley Whitehead",
-      "operator_address": "1816 Massachusetts Avenue",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-585-8528",
-      "operator_is_joestar": "No"
-    },
-    "18": {
-      "operator_id": 18,
-      "operator_name": "Willa Doyle",
-      "operator_address": "2750 Goldcliff Circle",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-618-4225",
-      "operator_is_joestar": "No"
-    },
-    "19": {
-      "operator_id": 19,
-      "operator_name": "Timothy Douglas",
-      "operator_address": "2655 Hillcrest Lane",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 903-941-1000",
-      "operator_is_joestar": "No"
-    },
-    "20": {
-      "operator_id": 20,
-      "operator_name": "Noelle Yu",
-      "operator_address": "1233 Hood Avenue",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-659-7611",
-      "operator_is_joestar": "No"
-    },
-    "21": {
-      "operator_id": 21,
-      "operator_name": "Donald Becker",
-      "operator_address": "3374 School Street",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-896-4244",
-      "operator_is_joestar": "No"
-    },
-    "22": {
-      "operator_id": 22,
-      "operator_name": "Ryan Foster",
-      "operator_address": "2888 Massachusetts Avenue",
-      "operator_city": "Washington",
-      "operator_phone_number": "+1 202-778-8546",
-      "operator_is_joestar": "No"
-    },
-    "23": {
-      "operator_id": 23,
-      "operator_name": "Kimoto Ayako",
-      "operator_address": ", 7-14-613, Kyobashi 2-chome, Chuo-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 36-460-3458",
-      "operator_is_joestar": "No"
-    },
-    "24": {
-      "operator_id": 24,
-      "operator_name": "Morikawa Masaaki",
-      "operator_address": "28-1-304, Kamata 4-chome, Ohta-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 85-998-7407",
-      "operator_is_joestar": "No"
-    },
-    "25": {
-      "operator_id": 25,
-      "operator_name": "Yano Hikaru",
-      "operator_address": "459-1111, Motoshuku, Hinohara-mura Nishitama-gun",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 83-202-1821",
-      "operator_is_joestar": "No"
-    },
-    "26": {
-      "operator_id": 26,
-      "operator_name": "Aoyama Yuriko",
-      "operator_address": "7-17, Imai 3-chome, Ohme",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 16-072-8761",
-      "operator_is_joestar": "No"
-    },
-    "27": {
-      "operator_id": 27,
-      "operator_name": "Harvey Manning",
-      "operator_address": "1188-4-chome Chuohoncho, Adachi-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 39-800-8164",
-      "operator_is_joestar": "No"
-    },
-    "28": {
-      "operator_id": 28,
-      "operator_name": "Zeph Hargraves",
-      "operator_address": "5-8, Shiba Koen 3-chome, Minato-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 21-872-1886",
-      "operator_is_joestar": "No"
-    },
-    "29": {
-      "operator_id": 29,
-      "operator_name": "Ralph Roffe",
-      "operator_address": "301-1123, Totsukamachi, Shinjuku-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 28-761-2207",
-      "operator_is_joestar": "No"
-    },
-    "30": {
-      "operator_id": 30,
-      "operator_name": "Yolanda Jackson",
-      "operator_address": "222-1108, Sotokanda, Chiyoda-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 22-203-3252",
-      "operator_is_joestar": "No"
-    },
-    "31": {
-      "operator_id": 31,
-      "operator_name": "Alaric Vargas",
-      "operator_address": "197-1144, Nishishinjuku Shinjuku Airandotawa(34-kai), Shinjuku-ku",
-      "operator_city": "Tokyo",
-      "operator_phone_number": "+81 18-925-6834",
-      "operator_is_joestar": "No"
-    },
-    "32": {
-      "operator_id": 32,
-      "operator_name": "Rafiq Dallal",
-      "operator_address": "24 B Zahraa Street, El Maadi",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-1687-5154",
-      "operator_is_joestar": "No"
-    },
-    "33": {
-      "operator_id": 33,
-      "operator_name": "Khalil Mina",
-      "operator_address": "Bldg 20 Street 263, New Maadi",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-8330-3111",
-      "operator_is_joestar": "No"
-    },
-    "34": {
-      "operator_id": 34,
-      "operator_name": "Sayyid Seray",
-      "operator_address": "Salah Salem Street",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-2630-0764",
-      "operator_is_joestar": "No"
-    },
-    "35": {
-      "operator_id": 35,
-      "operator_name": "Rashod Amir",
-      "operator_address": "13 Bassioni, Kholosy Shobra",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-7092-3221",
-      "operator_is_joestar": "No"
-    },
-    "36": {
-      "operator_id": 36,
-      "operator_name": "Raziqa Meer",
-      "operator_address": "23 Zaid Street, Abassia Industrial Zone-Abassia",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-1014-7990",
-      "operator_is_joestar": "No"
-    },
-    "37": {
-      "operator_id": 37,
-      "operator_name": "Abby Marsh",
-      "operator_address": "117 El-Thawra Street, Heliopolis",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-2661-3003",
-      "operator_is_joestar": "No"
-    },
-    "38": {
-      "operator_id": 38,
-      "operator_name": "Adrian Chasey",
-      "operator_address": "1 Osiris Street, Garden City",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-7944-9450",
-      "operator_is_joestar": "No"
-    },
-    "39": {
-      "operator_id": 39,
-      "operator_name": "Stephan Hall",
-      "operator_address": "2 Thrawat Street, Giza6",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-0261-4127",
-      "operator_is_joestar": "No"
-    },
-    "40": {
-      "operator_id": 40,
-      "operator_name": "Frank Moreno",
-      "operator_address": "46 Bahgat Ali Street, Zamalek",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-2735-5909",
-      "operator_is_joestar": "No"
-    },
-    "41": {
-      "operator_id": 41,
-      "operator_name": "Mike Burke",
-      "operator_address": "11 A Mohamed Anis Street, Zamalik",
-      "operator_city": "Cairo",
-      "operator_phone_number": "+20 2-1231-0609",
-      "operator_is_joestar": "No"
-    }
+    "operator_id": 1,
+    "operator_name": "Joseph Joestar",
+    "operator_address": "PH58, 56 Leonard Street",
+    "operator_city": "New York",
+    "operator_phone_number": "+1 212-220-4275",
+    "operator_is_joestar": "Yes"
+  },
+  {
+    "operator_id": 2,
+    "operator_name": "Jotaro Kujo",
+    "operator_address": "1 Kawadocho, Chuo Ward",
+    "operator_city": "Chiba",
+    "operator_phone_number": "+81 42-319-4543",
+    "operator_is_joestar": "Yes"
+  },
+  {
+    "operator_id": 3,
+    "operator_name": "Margaret Barber",
+    "operator_address": "1143 Scenicview Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 214-563-1938",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 4,
+    "operator_name": "Cherry Donnelly",
+    "operator_address": "3520 Liberty Street",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 214-982-9254",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 5,
+    "operator_name": "Christina Wiley",
+    "operator_address": "3699 Platinum Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 469-502-057",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 6,
+    "operator_name": "Keanu Campbell",
+    "operator_address": "1831 Poco Mas Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 214-543-7700",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 7,
+    "operator_name": "Karan Moore",
+    "operator_address": "2012 Stoney Lane",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 469-507-9073",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 8,
+    "operator_name": "Primrose Morton",
+    "operator_address": "3852 Whispering Pines Circle",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 214-621-4620",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 9,
+    "operator_name": "Stacey Rosalynne",
+    "operator_address": "2252 Oliver Street",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 469-223-0026",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 10,
+    "operator_name": "Belle Clayton",
+    "operator_address": "3936 High Summit Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 972-241-0881",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 11,
+    "operator_name": "Jim Chasey",
+    "operator_address": "6010 Park Manor Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 972-225-3310",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 12,
+    "operator_name": "Paisley Stevenson",
+    "operator_address": "3936 High Summit Drive",
+    "operator_city": "Dallas",
+    "operator_phone_number": "+1 972-241-0881",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 13,
+    "operator_name": "Hadden Poe",
+    "operator_address": "1604 Webster Street",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-723-6391",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 14,
+    "operator_name": "Ollie Jacobs",
+    "operator_address": "9496 Greenfield Street",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-366-1092",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 15,
+    "operator_name": "Lois Lane",
+    "operator_address": "8937 Summit Court",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-742-4096",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 16,
+    "operator_name": "Sibley Feron",
+    "operator_address": "2368 Rhode Island Avenue",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-338-9755",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 17,
+    "operator_name": "Haley Whitehead",
+    "operator_address": "1816 Massachusetts Avenue",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-585-8528",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 18,
+    "operator_name": "Willa Doyle",
+    "operator_address": "2750 Goldcliff Circle",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-618-4225",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 19,
+    "operator_name": "Timothy Douglas",
+    "operator_address": "2655 Hillcrest Lane",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 903-941-1000",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 20,
+    "operator_name": "Noelle Yu",
+    "operator_address": "1233 Hood Avenue",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-659-7611",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 21,
+    "operator_name": "Donald Becker",
+    "operator_address": "3374 School Street",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-896-4244",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 22,
+    "operator_name": "Ryan Foster",
+    "operator_address": "2888 Massachusetts Avenue",
+    "operator_city": "Washington",
+    "operator_phone_number": "+1 202-778-8546",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 23,
+    "operator_name": "Kimoto Ayako",
+    "operator_address": ", 7-14-613, Kyobashi 2-chome, Chuo-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 36-460-3458",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 24,
+    "operator_name": "Morikawa Masaaki",
+    "operator_address": "28-1-304, Kamata 4-chome, Ohta-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 85-998-7407",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 25,
+    "operator_name": "Yano Hikaru",
+    "operator_address": "459-1111, Motoshuku, Hinohara-mura Nishitama-gun",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 83-202-1821",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 26,
+    "operator_name": "Aoyama Yuriko",
+    "operator_address": "7-17, Imai 3-chome, Ohme",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 16-072-8761",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 27,
+    "operator_name": "Harvey Manning",
+    "operator_address": "1188-4-chome Chuohoncho, Adachi-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 39-800-8164",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 28,
+    "operator_name": "Zeph Hargraves",
+    "operator_address": "5-8, Shiba Koen 3-chome, Minato-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 21-872-1886",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 29,
+    "operator_name": "Ralph Roffe",
+    "operator_address": "301-1123, Totsukamachi, Shinjuku-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 28-761-2207",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 30,
+    "operator_name": "Yolanda Jackson",
+    "operator_address": "222-1108, Sotokanda, Chiyoda-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 22-203-3252",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 31,
+    "operator_name": "Alaric Vargas",
+    "operator_address": "197-1144, Nishishinjuku Shinjuku Airandotawa(34-kai), Shinjuku-ku",
+    "operator_city": "Tokyo",
+    "operator_phone_number": "+81 18-925-6834",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 32,
+    "operator_name": "Rafiq Dallal",
+    "operator_address": "24 B Zahraa Street, El Maadi",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-1687-5154",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 33,
+    "operator_name": "Khalil Mina",
+    "operator_address": "Bldg 20 Street 263, New Maadi",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-8330-3111",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 34,
+    "operator_name": "Sayyid Seray",
+    "operator_address": "Salah Salem Street",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-2630-0764",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 35,
+    "operator_name": "Rashod Amir",
+    "operator_address": "13 Bassioni, Kholosy Shobra",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-7092-3221",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 36,
+    "operator_name": "Raziqa Meer",
+    "operator_address": "23 Zaid Street, Abassia Industrial Zone-Abassia",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-1014-7990",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 37,
+    "operator_name": "Abby Marsh",
+    "operator_address": "117 El-Thawra Street, Heliopolis",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-2661-3003",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 38,
+    "operator_name": "Adrian Chasey",
+    "operator_address": "1 Osiris Street, Garden City",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-7944-9450",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 39,
+    "operator_name": "Stephan Hall",
+    "operator_address": "2 Thrawat Street, Giza6",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-0261-4127",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 40,
+    "operator_name": "Frank Moreno",
+    "operator_address": "46 Bahgat Ali Street, Zamalek",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-2735-5909",
+    "operator_is_joestar": "No"
+  },
+  {
+    "operator_id": 41,
+    "operator_name": "Mike Burke",
+    "operator_address": "11 A Mohamed Anis Street, Zamalik",
+    "operator_city": "Cairo",
+    "operator_phone_number": "+20 2-1231-0609",
+    "operator_is_joestar": "No"
   }
 ]

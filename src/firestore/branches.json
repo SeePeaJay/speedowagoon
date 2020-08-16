@@ -1,32 +1,30 @@
 [
   {
-    "1": {
-      "branch_id": 1,
-      "branch_name": "Speedowagoon Vehicle Station - Dallas Branch",
-      "branch_address": "3614 Liberty Street",
-      "branch_city": "Dallas",
-      "branch_phone_number": "+1 214-844-0128"
-    },
-    "2": {
-      "branch_id": 2,
-      "branch_name": "Speedowagoon Vehicle Station - Washington Branch",
-      "branch_address": "4861 Massachusetts Avenue",
-      "branch_city": "Washington",
-      "branch_phone_number": "+1 202-672-7095"
-    },
-    "3": {
-      "branch_id": 3,
-      "branch_name": "Speedowagoon Vehicle Station - Tokyo Branch",
-      "branch_address": "183-1215, Shimomeguro, Meguro-ku",
-      "branch_city": "Tokyo",
-      "branch_phone_number": "+81 158-587-0385"
-    },
-    "4": {
-      "branch_id": 4,
-      "branch_name": "Speedowagoon Vehicle Station - Cairo Branch",
-      "branch_address": "6 Nagib El Rayhany Street, Downtown",
-      "branch_city": "Cairo",
-      "branch_phone_number": "+20 2-3852-8470"
-    }
+    "branch_id": 1,
+    "branch_name": "Speedowagoon Vehicle Station - Dallas Branch",
+    "branch_address": "3614 Liberty Street",
+    "branch_city": "Dallas",
+    "branch_phone_number": "+1 214-844-0128"
+  },
+  {
+    "branch_id": 2,
+    "branch_name": "Speedowagoon Vehicle Station - Washington Branch",
+    "branch_address": "4861 Massachusetts Avenue",
+    "branch_city": "Washington",
+    "branch_phone_number": "+1 202-672-7095"
+  },
+  {
+    "branch_id": 3,
+    "branch_name": "Speedowagoon Vehicle Station - Tokyo Branch",
+    "branch_address": "183-1215, Shimomeguro, Meguro-ku",
+    "branch_city": "Tokyo",
+    "branch_phone_number": "+81 158-587-0385"
+  },
+  {
+    "branch_id": 4,
+    "branch_name": "Speedowagoon Vehicle Station - Cairo Branch",
+    "branch_address": "6 Nagib El Rayhany Street, Downtown",
+    "branch_city": "Cairo",
+    "branch_phone_number": "+20 2-3852-8470"
   }
 ]

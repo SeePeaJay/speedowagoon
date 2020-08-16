@@ -1,5 +1,5 @@
 <template>
-  <va-card :title="$t('dashboard.table.title')">
+  <va-card title="Most recently deployed">
     <div class="row align--center mb-1">
       <div class="flex xs12 sm6">
         <va-input

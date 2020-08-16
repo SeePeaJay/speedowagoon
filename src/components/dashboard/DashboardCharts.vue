@@ -11,21 +11,27 @@ export default {
   name: 'dashboard-charts',
   data () {
     return {
-      donutChartData: getDonutChartData(this.$themes),
+      donutChartData: {},
       lineChartFirstMonthIndex: 0,
     }
   },
   watch: {
     '$themes.primary' () {
-      this.donutChartData = getDonutChartData(this.$themes)
+      getDonutChartData(this.$themes).then((generatedData) => {
+        this.donutChartData = generatedData
+      })
     },
 
     '$themes.info' () {
-      this.donutChartData = getDonutChartData(this.$themes)
+      getDonutChartData(this.$themes).then((generatedData) => {
+        this.donutChartData = generatedData
+      })
     },
 
     '$themes.danger' () {
-      this.donutChartData = getDonutChartData(this.$themes)
+      getDonutChartData(this.$themes).then((generatedData) => {
+        this.donutChartData = generatedData
+      })
     },
   },
   methods: {
@@ -51,7 +57,9 @@ export default {
     },
   },
   created () {
-    console.log('yay')
+    getDonutChartData(this.$themes).then((generatedData) => {
+      this.donutChartData = generatedData
+    })
   },
 }
 </script>

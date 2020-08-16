@@ -1,92 +1,90 @@
 [
   {
-    "1": {
-      "return_id": 1,
-      "deployment_id": 1,
-      "vehicle_id": 15,
-      "operator_id": 8,
-      "branch_id": 1,
-      "return_date": "2020-01-15"
-    },
-    "2": {
-      "return_id": 2,
-      "deployment_id": 2,
-      "vehicle_id": 22,
-      "operator_id": 4,
-      "branch_id": 1,
-      "return_date": "2020-07-25"
-    },
-    "3": {
-      "return_id": 3,
-      "deployment_id": 4,
-      "vehicle_id": 27,
-      "operator_id": 14,
-      "branch_id": 2,
-      "return_date": "2020-02-13"
-    },
-    "4": {
-      "return_id": 4,
-      "deployment_id": 5,
-      "vehicle_id": 8,
-      "operator_id": 17,
-      "branch_id": 2,
-      "return_date": "2020-03-27"
-    },
-    "5": {
-      "return_id": 5,
-      "deployment_id": 6,
-      "vehicle_id": 67,
-      "operator_id": 20,
-      "branch_id": 2,
-      "return_date": "2020-05-14"
-    },
-    "6": {
-      "return_id": 6,
-      "deployment_id": 7,
-      "vehicle_id": 75,
-      "operator_id": 24,
-      "branch_id": 3,
-      "return_date": "2020-01-26"
-    },
-    "7": {
-      "return_id": 7,
-      "deployment_id": 8,
-      "vehicle_id": 57,
-      "operator_id": 27,
-      "branch_id": 3,
-      "return_date": "2020-03-09"
-    },
-    "8": {
-      "return_id": 8,
-      "deployment_id": 10,
-      "vehicle_id": 65,
-      "operator_id": 33,
-      "branch_id": 4,
-      "return_date": "2020-02-07"
-    },
-    "9": {
-      "return_id": 9,
-      "deployment_id": 11,
-      "vehicle_id": 74,
-      "operator_id": 40,
-      "branch_id": 4,
-      "return_date": "2020-03-16"
-    },
-    "10": {
-      "return_id": 10,
-      "deployment_id": 12,
-      "vehicle_id": 14,
-      "operator_id": 38,
-      "branch_id": 4,
-      "return_date": "2020-05-01"
-    },
-    "11": {
-      "return_id": 11,
-      "deployment_id": 13,
-      "vehicle_id": 21,
-      "operator_id": 34,
-      "branch_id": 4,
-      "return_date": "2020-06-22"
-    }
+    "return_id": 1,
+    "deployment_id": 1,
+    "vehicle_id": 15,
+    "operator_id": 8,
+    "branch_id": 1,
+    "return_date": "2020-01-15"
+  },
+  {
+    "return_id": 2,
+    "deployment_id": 2,
+    "vehicle_id": 22,
+    "operator_id": 4,
+    "branch_id": 1,
+    "return_date": "2020-07-25"
+  },
+  {
+    "return_id": 3,
+    "deployment_id": 4,
+    "vehicle_id": 27,
+    "operator_id": 14,
+    "branch_id": 2,
+    "return_date": "2020-02-13"
+  },
+  {
+    "return_id": 4,
+    "deployment_id": 5,
+    "vehicle_id": 8,
+    "operator_id": 17,
+    "branch_id": 2,
+    "return_date": "2020-03-27"
+  },
+  {
+    "return_id": 5,
+    "deployment_id": 6,
+    "vehicle_id": 67,
+    "operator_id": 20,
+    "branch_id": 2,
+    "return_date": "2020-05-14"
+  },
+  {
+    "return_id": 6,
+    "deployment_id": 7,
+    "vehicle_id": 75,
+    "operator_id": 24,
+    "branch_id": 3,
+    "return_date": "2020-01-26"
+  },
+  {
+    "return_id": 7,
+    "deployment_id": 8,
+    "vehicle_id": 57,
+    "operator_id": 27,
+    "branch_id": 3,
+    "return_date": "2020-03-09"
+  },
+  {
+    "return_id": 8,
+    "deployment_id": 10,
+    "vehicle_id": 65,
+    "operator_id": 33,
+    "branch_id": 4,
+    "return_date": "2020-02-07"
+  },
+  {
+    "return_id": 9,
+    "deployment_id": 11,
+    "vehicle_id": 74,
+    "operator_id": 40,
+    "branch_id": 4,
+    "return_date": "2020-03-16"
+  },
+  {
+    "return_id": 10,
+    "deployment_id": 12,
+    "vehicle_id": 14,
+    "operator_id": 38,
+    "branch_id": 4,
+    "return_date": "2020-05-01"
+  },
+  {
+    "return_id": 11,
+    "deployment_id": 13,
+    "vehicle_id": 21,
+    "operator_id": 34,
+    "branch_id": 4,
+    "return_date": "2020-06-22"
   }
 ]

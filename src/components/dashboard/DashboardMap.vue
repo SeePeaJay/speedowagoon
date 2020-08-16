@@ -1,5 +1,5 @@
 <template>
-  <va-card :title="$t('dashboard.currentVisitors')">
+  <va-card title="Branch locations">
     <line-map
       class="dashboard-map"
       :map-data="lineMapData"
