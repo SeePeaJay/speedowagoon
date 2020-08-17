@@ -12,21 +12,10 @@
           <va-icon name="fa fa-search" slot="prepend" />
         </va-input>
       </div>
-
-      <div class="flex xs12 sm6">
-        <div class="d-flex justify--end">
-          <va-button-toggle
-            outline
-            v-model="mode"
-            :options="modeOptions"
-            style="max-width: 100%;"
-          />
-        </div>
-      </div>
     </div>
 
     <va-data-table
-      :fields="mode ? detailedFields : fields"
+      :fields="detailedFields"
       :data="filteredData"
       :loading="loading"
       hoverable
@@ -45,19 +34,6 @@
         <va-badge :color="getStatusColor(props.rowData.status)">
           {{ props.rowData.status }}
         </va-badge>
-      </template>
-
-      <template v-slot:actions="props">
-        <va-button
-          small
-          outline
-          color="success"
-          icon="fa fa-check"
-          class="ma-0"
-          @click="resolveUser(props.rowData)"
-        >
-          {{ $t('dashboard.table.resolve') }}
-        </va-button>
       </template>
     </va-data-table>
   </va-card>
