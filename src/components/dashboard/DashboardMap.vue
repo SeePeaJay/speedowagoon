@@ -33,12 +33,16 @@ export default {
     },
   },
   mounted () {
-    this.lineMapData = getLineMapData(this.$themes)
+    getLineMapData(this.$themes).then((generatedData) => {
+      this.lineMapData = generatedData
+    })
   },
   watch: {
     '$themesOptions.activeThemeName': { // hack for trigger change themes
       handler () {
-        this.lineMapData = getLineMapData(this.$themes)
+        getLineMapData(this.$themes).then((generatedData) => {
+          this.lineMapData = generatedData
+        })
       },
       immediate: true,
     },

@@ -1,5 +1,4 @@
 import db from './../../firestore/firebaseInit'
-// import { resolve } from 'core-js/fn/promise'
 
 let generatedData
 let totalVehiclesInDallasBranch = 0
@@ -11,19 +10,19 @@ function populateData () {
   return db.collection('vehicles').get().then(
     querySnapshot => {
       querySnapshot.forEach(doc => {
-        // console.log(typeof doc.data().branch_id)
+        console.log(typeof doc.data().branch_id)
         switch (doc.data().branch_id) {
-          case '1':
+          case 1:
             // console.log('Have I been here yet?')
             totalVehiclesInDallasBranch += 1
             break
-          case '2':
+          case 2:
             totalVehiclesInWashingtonBranch += 1
             break
-          case '3':
+          case 3:
             totalVehiclesInTokyoBranch += 1
             break
-          case '4':
+          case 4:
             totalVehiclesInCairoBranch += 1
             break
         }

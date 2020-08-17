@@ -3,6 +3,7 @@
     "branch_id": 1,
     "branch_name": "Speedowagoon Vehicle Station - Dallas Branch",
     "branch_address": "3614 Liberty Street",
+    "branch_coordinates": "32.7905881, -96.7887111",
     "branch_city": "Dallas",
     "branch_phone_number": "+1 214-844-0128"
   },
@@ -10,6 +11,7 @@
     "branch_id": 2,
     "branch_name": "Speedowagoon Vehicle Station - Washington Branch",
     "branch_address": "4861 Massachusetts Avenue",
+    "branch_coordinates": "38.9458145, -77.0965192",
     "branch_city": "Washington",
     "branch_phone_number": "+1 202-672-7095"
   },
@@ -17,6 +19,7 @@
     "branch_id": 3,
     "branch_name": "Speedowagoon Vehicle Station - Tokyo Branch",
     "branch_address": "183-1215, Shimomeguro, Meguro-ku",
+    "branch_coordinates": "35.629145, 139.699948",
     "branch_city": "Tokyo",
     "branch_phone_number": "+81 158-587-0385"
   },
@@ -24,6 +27,7 @@
     "branch_id": 4,
     "branch_name": "Speedowagoon Vehicle Station - Cairo Branch",
     "branch_address": "6 Nagib El Rayhany Street, Downtown",
+    "branch_coordinates": "30.068673, 31.217598",
     "branch_city": "Cairo",
     "branch_phone_number": "+20 2-3852-8470"
   }
