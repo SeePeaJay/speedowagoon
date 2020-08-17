@@ -10,7 +10,7 @@ function populateData () {
   return db.collection('vehicles').get().then(
     querySnapshot => {
       querySnapshot.forEach(doc => {
-        console.log(typeof doc.data().branch_id)
+        // console.log(typeof doc.data().branch_id)
         switch (doc.data().branch_id) {
           case 1:
             // console.log('Have I been here yet?')
