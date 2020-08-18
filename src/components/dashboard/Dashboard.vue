@@ -1,16 +1,16 @@
 <template>
   <div class="dashboard">
-    <div class="row">
-      <div class="flex xs12">
-        <dashboard-table />
-      </div>
-    </div>
     <div class="row row-equal">
       <div class="flex xs12 lg6">
         <dashboard-charts />
       </div>
       <div class="flex xs12 lg6">
         <dashboard-map ref="dashboardMap"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="flex xs12">
+        <dashboard-table />
       </div>
     </div>
   </div>

@@ -11,16 +11,16 @@ function populateCoordinates () {
       querySnapshot.forEach(doc => {
         // console.log(typeof doc.data().branch_id)
         switch (doc.data().branch_id) {
-          case 1:
+          case '1':
             dallasBranchCoordinates = doc.data().branch_coordinates
             break
-          case 2:
+          case '2':
             washingtonBranchCoordinates = doc.data().branch_coordinates
             break
-          case 3:
+          case '3':
             tokyoBranchCoordinates = doc.data().branch_coordinates
             break
-          case 4:
+          case '4':
             cairoBranchCoordinates = doc.data().branch_coordinates
             break
         }

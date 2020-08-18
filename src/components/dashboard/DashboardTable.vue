@@ -15,7 +15,7 @@
     </div>
 
     <va-data-table
-      :fields="detailedFields"
+      :fields="fields"
       :data="filteredData"
       :loading="loading"
       hoverable
@@ -41,12 +41,13 @@
 
 <script>
 import debounce from 'lodash/debounce'
-import data from '../markup-tables/data.json'
+// import data from '../markup-tables/data.json'
+import db from './../../firestore/firebaseInit'
 
 export default {
   data () {
     return {
-      users: data.slice(),
+      users: [],
       loading: false,
       term: null,
       mode: 0,
@@ -55,25 +56,45 @@ export default {
   computed: {
     fields () {
       return [{
-        name: '__slot:icon',
-        width: '30px',
-        dataClass: 'text-center',
+        name: 'deployment_id',
+        title: 'deployment id',
+        width: '10%',
+        sortField: 'deployment_id',
       }, {
-        name: 'name',
-        title: this.$t('tables.headings.name'),
-        width: '30%',
+        name: 'reservation_id',
+        title: 'reservation id',
+        width: '10%',
+        sortField: 'reservation_id',
       }, {
-        name: 'email',
-        title: this.$t('tables.headings.email'),
-        width: '30%',
+        name: 'vehicle_id',
+        title: 'vehicle id',
+        width: '10%',
+        sortField: 'vehicle_id',
       }, {
-        name: '__slot:status',
-        title: this.$t('tables.headings.status'),
+        name: 'operator_id',
+        title: 'opearator id',
+        width: '10%',
+        sortField: 'operator_id',
+      }, {
+        name: 'operator_name',
+        title: 'operator name',
         width: '20%',
-        sortField: 'status',
+        sortField: 'operator_name',
       }, {
-        name: '__slot:actions',
-        dataClass: 'text-right',
+        name: 'pickup_date',
+        title: 'pickup date',
+        width: '10%',
+        sortField: 'pickup_date',
+      }, {
+        name: 'branch_id',
+        title: 'branch id',
+        width: '10%',
+        sortField: 'branch_id',
+      }, {
+        name: 'return_date',
+        title: 'return date',
+        width: '10%',
+        sortField: 'return_date',
       }]
     },
     detailedFields () {
@@ -85,6 +106,7 @@ export default {
         name: 'name',
         title: this.$t('tables.headings.name'),
         width: '20%',
+        sortField: 'name',
       }, {
         name: 'email',
         title: this.$t('tables.headings.email'),
@@ -93,7 +115,7 @@ export default {
       {
         name: 'country',
         title: this.$t('tables.headings.location'),
-        with: '20%',
+        with: '100%',
       },
       {
         name: '__slot:starred',
@@ -102,7 +124,7 @@ export default {
       {
         name: '__slot:status',
         title: this.$t('tables.headings.status'),
-        width: '20%',
+        width: '100%',
         sortField: 'status',
       },
       {
@@ -159,6 +181,20 @@ export default {
     search: debounce(function (term) {
       this.term = term
     }, 400),
+  },
+  created () {
+    db.collection('deployed').get().then(
+      querySnapshot => {
+        querySnapshot.forEach(doc => {
+          console.log('type of doc.data(): ' + typeof doc.data())
+          if (doc.data().pickup_date.split('-')[1] >= 2) {
+            console.log('yay accepted')
+            this.users.push(doc.data())
+            // add to users
+          }
+        })
+      },
+    )
   },
 }
 </script>
