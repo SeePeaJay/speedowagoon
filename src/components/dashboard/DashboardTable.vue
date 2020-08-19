@@ -27,6 +27,7 @@
 <script>
 import debounce from 'lodash/debounce'
 import db from './../../firestore/firebaseInit'
+import _ from 'lodash'
 
 export default {
   data () {
@@ -44,11 +45,6 @@ export default {
         title: 'deployment id',
         width: '10%',
         sortField: 'deployment_id',
-      }, {
-        name: 'reservation_id',
-        title: 'reservation id',
-        width: '10%',
-        sortField: 'reservation_id',
       }, {
         name: 'vehicle_id',
         title: 'vehicle id',
@@ -128,7 +124,8 @@ export default {
         querySnapshot.forEach(doc => {
           // console.log('type of doc.data(): ' + typeof doc.data())
           if (doc.data().pickup_date.split('-')[1] >= 2) {
-            this.users.push(doc.data())
+            const condensedData = _.pick(doc.data(), ['deployment_id', 'vehicle_id', 'operator_id', 'operator_name', 'pickup_date', 'branch_id', 'return_date'])
+            this.users.push(condensedData)
           }
         })
       },
