@@ -1,5 +1,5 @@
 <template>
-  <va-card title="Most recently deployed">
+  <va-card title="Deployed">
     <div class="row align--center mb-1">
       <div class="flex xs12 sm6">
         <va-input
@@ -19,14 +19,24 @@
       :data="filteredData"
       :loading="loading"
       hoverable
+      no-pagination
     >
+      <template slot="actions" slot-scope="props">
+        <va-button flat small color="gray" @click="edit(props.rowData)" class="ma-0">
+          {{ $t('tables.edit') }}
+        </va-button>
+
+        <va-button flat small color="danger" @click="remove(props.rowData)" class="ma-0">
+          {{ $t('tables.delete') }}
+        </va-button>
+      </template>
     </va-data-table>
   </va-card>
 </template>
 
 <script>
 import debounce from 'lodash/debounce'
-import db from './../../firestore/firebaseInit'
+import db from '../firestore/firebaseInit'
 
 export default {
   data () {
@@ -62,7 +72,7 @@ export default {
       }, {
         name: 'operator_name',
         title: 'operator name',
-        width: '20%',
+        width: '15%',
         sortField: 'operator_name',
       }, {
         name: 'pickup_date',
@@ -79,6 +89,9 @@ export default {
         title: 'return date',
         width: '10%',
         sortField: 'return_date',
+      }, {
+        name: '__slot:actions',
+        dataClass: 'text-right',
       }]
     },
     filteredData () {
@@ -121,15 +134,20 @@ export default {
     search: debounce(function (term) {
       this.term = term
     }, 400),
+    edit (user) {
+      alert('Edit User: ' + JSON.stringify(user))
+    },
+    remove (user) {
+      const idx = this.users.findIndex(u => u.id === user.id)
+      this.users.splice(idx, 1)
+    },
   },
   created () {
     db.collection('deployed').get().then(
       querySnapshot => {
         querySnapshot.forEach(doc => {
           // console.log('type of doc.data(): ' + typeof doc.data())
-          if (doc.data().pickup_date.split('-')[1] >= 2) {
-            this.users.push(doc.data())
-          }
+          this.users.push(doc.data())
         })
       },
     )

@@ -14,7 +14,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'Remove: all unnecessary root files/folders'
+git commit -m 'Feat: completed dashboard table'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master

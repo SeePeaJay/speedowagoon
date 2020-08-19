@@ -6,9 +6,16 @@ export const navigationRoutes = {
   routes: [
     {
       name: 'dashboard',
-      displayName: 'menu.dashboard',
+      displayName: 'Dashboard',
       meta: {
         iconClass: 'vuestic-iconset vuestic-iconset-dashboard',
+      },
+    },
+    {
+      name: 'deployed',
+      displayName: 'Deployed',
+      meta: {
+        iconClass: 'vuestic-iconset vuestic-iconset-files',
       },
     },
     {

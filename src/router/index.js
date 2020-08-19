@@ -82,6 +82,11 @@ export default new Router({
           default: true,
         },
         {
+          name: 'deployed',
+          path: 'deployed',
+          component: () => import('../components/Deployed.vue'),
+        },
+        {
           name: 'statistics',
           path: 'statistics',
           component: EmptyParentComponent,

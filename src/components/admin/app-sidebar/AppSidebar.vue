@@ -29,7 +29,7 @@
           :active-by-default="item.name === $route.name"
           :icon="item.meta && item.meta.iconClass"
           :to="{ name: item.name }"
-          :title="$t(item.displayName)"
+          :title="item.displayName"
         />
       </template>
     </ul>
