@@ -1,11 +1,11 @@
 <template>
-  <va-card title="Most recently deployed">
+  <va-card title="Operators">
     <div class="row align--center mb-1">
       <div class="flex xs12 sm6">
         <va-input
           class="ma-0"
           :value="term"
-          placeholder="Search by deployment ID"
+          placeholder="Search by operator ID"
           @input="search"
           removable
         >
@@ -19,15 +19,24 @@
       :data="filteredData"
       :loading="loading"
       hoverable
+      no-pagination
     >
+      <template slot="actions" slot-scope="props">
+        <va-button flat small color="gray" @click="edit(props.rowData)" class="ma-0">
+          {{ $t('tables.edit') }}
+        </va-button>
+
+        <va-button flat small color="danger" @click="remove(props.rowData)" class="ma-0">
+          {{ $t('tables.delete') }}
+        </va-button>
+      </template>
     </va-data-table>
   </va-card>
 </template>
 
 <script>
 import debounce from 'lodash/debounce'
-import db from './../../firestore/firebaseInit'
-import _ from 'lodash'
+import db from '../firestore/firebaseInit'
 
 export default {
   data () {
@@ -41,40 +50,38 @@ export default {
   computed: {
     fields () {
       return [{
-        name: 'deployment_id',
-        title: 'deployment id',
-        width: '10%',
-        sortField: 'deployment_id',
-      }, {
-        name: 'vehicle_id',
-        title: 'vehicle id',
-        width: '10%',
-        sortField: 'vehicle_id',
-      }, {
         name: 'operator_id',
-        title: 'opearator id',
+        title: 'Operator ID',
         width: '10%',
         sortField: 'operator_id',
       }, {
         name: 'operator_name',
-        title: 'operator name',
-        width: '20%',
+        title: 'Operator name',
+        width: '15%',
         sortField: 'operator_name',
       }, {
-        name: 'pickup_date',
-        title: 'pickup date',
-        width: '10%',
-        sortField: 'pickup_date',
+        name: 'operator_address',
+        title: 'Operator address',
+        width: '25%',
+        sortField: 'operator_address',
       }, {
-        name: 'branch_id',
-        title: 'branch id',
+        name: 'operator_city',
+        title: 'Operator city',
         width: '10%',
-        sortField: 'branch_id',
+        sortField: 'operator_city',
       }, {
-        name: 'return_date',
-        title: 'return date',
-        width: '10%',
-        sortField: 'return_date',
+        name: 'operator_phone_number',
+        title: 'Operator phone number',
+        width: '15%',
+        sortField: 'operator_phone_number',
+      }, {
+        name: 'operator_is_joestar',
+        title: 'Operator is Joestar?',
+        width: '5%',
+        sortField: 'operator_is_joestar',
+      }, {
+        name: '__slot:actions',
+        dataClass: 'text-right',
       }]
     },
     filteredData () {
@@ -83,7 +90,7 @@ export default {
       }
 
       return this.users.filter(item => {
-        return item.deployment_id.toLowerCase().startsWith(this.term.toLowerCase())
+        return item.operator_id.toLowerCase().startsWith(this.term.toLowerCase())
       })
     },
   },
@@ -117,16 +124,19 @@ export default {
     search: debounce(function (term) {
       this.term = term
     }, 400),
+    edit (user) {
+      alert('Edit User: ' + JSON.stringify(user))
+    },
+    remove (user) {
+      const idx = this.users.findIndex(u => u.id === user.id)
+      this.users.splice(idx, 1)
+    },
   },
   created () {
-    db.collection('deployed').get().then(
+    db.collection('operators').get().then(
       querySnapshot => {
         querySnapshot.forEach(doc => {
-          // console.log('type of doc.data(): ' + typeof doc.data())
-          if (doc.data().pickup_date.split('-')[1] >= 2) {
-            const condensedData = _.pick(doc.data(), ['deployment_id', 'vehicle_id', 'operator_id', 'operator_name', 'pickup_date', 'branch_id', 'return_date'])
-            this.users.push(condensedData)
-          }
+          this.users.push(doc.data())
         })
       },
     )

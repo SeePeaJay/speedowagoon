@@ -1,6 +1,6 @@
 [
   {
-    "operator_id": 1,
+    "operator_id": "1",
     "operator_name": "Joseph Joestar",
     "operator_address": "PH58, 56 Leonard Street",
     "operator_city": "New York",
@@ -8,7 +8,7 @@
     "operator_is_joestar": "Yes"
   },
   {
-    "operator_id": 2,
+    "operator_id": "2",
     "operator_name": "Jotaro Kujo",
     "operator_address": "1 Kawadocho, Chuo Ward",
     "operator_city": "Chiba",
@@ -16,7 +16,7 @@
     "operator_is_joestar": "Yes"
   },
   {
-    "operator_id": 3,
+    "operator_id": "3",
     "operator_name": "Margaret Barber",
     "operator_address": "1143 Scenicview Drive",
     "operator_city": "Dallas",
@@ -24,7 +24,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 4,
+    "operator_id": "4",
     "operator_name": "Cherry Donnelly",
     "operator_address": "3520 Liberty Street",
     "operator_city": "Dallas",
@@ -32,7 +32,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 5,
+    "operator_id": "5",
     "operator_name": "Christina Wiley",
     "operator_address": "3699 Platinum Drive",
     "operator_city": "Dallas",
@@ -40,7 +40,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 6,
+    "operator_id": "6",
     "operator_name": "Keanu Campbell",
     "operator_address": "1831 Poco Mas Drive",
     "operator_city": "Dallas",
@@ -48,7 +48,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 7,
+    "operator_id": "7",
     "operator_name": "Karan Moore",
     "operator_address": "2012 Stoney Lane",
     "operator_city": "Dallas",
@@ -56,7 +56,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 8,
+    "operator_id": "8",
     "operator_name": "Primrose Morton",
     "operator_address": "3852 Whispering Pines Circle",
     "operator_city": "Dallas",
@@ -64,7 +64,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 9,
+    "operator_id": "9",
     "operator_name": "Stacey Rosalynne",
     "operator_address": "2252 Oliver Street",
     "operator_city": "Dallas",
@@ -72,7 +72,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 10,
+    "operator_id": "10",
     "operator_name": "Belle Clayton",
     "operator_address": "3936 High Summit Drive",
     "operator_city": "Dallas",
@@ -80,7 +80,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 11,
+    "operator_id": "11",
     "operator_name": "Jim Chasey",
     "operator_address": "6010 Park Manor Drive",
     "operator_city": "Dallas",
@@ -88,7 +88,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 12,
+    "operator_id": "12",
     "operator_name": "Paisley Stevenson",
     "operator_address": "3936 High Summit Drive",
     "operator_city": "Dallas",
@@ -96,7 +96,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 13,
+    "operator_id": "13",
     "operator_name": "Hadden Poe",
     "operator_address": "1604 Webster Street",
     "operator_city": "Washington",
@@ -104,7 +104,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 14,
+    "operator_id": "14",
     "operator_name": "Ollie Jacobs",
     "operator_address": "9496 Greenfield Street",
     "operator_city": "Washington",
@@ -112,7 +112,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 15,
+    "operator_id": "15",
     "operator_name": "Lois Lane",
     "operator_address": "8937 Summit Court",
     "operator_city": "Washington",
@@ -120,7 +120,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 16,
+    "operator_id": "16",
     "operator_name": "Sibley Feron",
     "operator_address": "2368 Rhode Island Avenue",
     "operator_city": "Washington",
@@ -128,7 +128,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 17,
+    "operator_id": "17",
     "operator_name": "Haley Whitehead",
     "operator_address": "1816 Massachusetts Avenue",
     "operator_city": "Washington",
@@ -136,7 +136,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 18,
+    "operator_id": "18",
     "operator_name": "Willa Doyle",
     "operator_address": "2750 Goldcliff Circle",
     "operator_city": "Washington",
@@ -144,7 +144,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 19,
+    "operator_id": "19",
     "operator_name": "Timothy Douglas",
     "operator_address": "2655 Hillcrest Lane",
     "operator_city": "Washington",
@@ -152,7 +152,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 20,
+    "operator_id": "20",
     "operator_name": "Noelle Yu",
     "operator_address": "1233 Hood Avenue",
     "operator_city": "Washington",
@@ -160,7 +160,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 21,
+    "operator_id": "21",
     "operator_name": "Donald Becker",
     "operator_address": "3374 School Street",
     "operator_city": "Washington",
@@ -168,7 +168,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 22,
+    "operator_id": "22",
     "operator_name": "Ryan Foster",
     "operator_address": "2888 Massachusetts Avenue",
     "operator_city": "Washington",
@@ -176,15 +176,15 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 23,
+    "operator_id": "23",
     "operator_name": "Kimoto Ayako",
-    "operator_address": ", 7-14-613, Kyobashi 2-chome, Chuo-ku",
+    "operator_address": "7-14-613, Kyobashi 2-chome, Chuo-ku",
     "operator_city": "Tokyo",
     "operator_phone_number": "+81 36-460-3458",
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 24,
+    "operator_id": "24",
     "operator_name": "Morikawa Masaaki",
     "operator_address": "28-1-304, Kamata 4-chome, Ohta-ku",
     "operator_city": "Tokyo",
@@ -192,7 +192,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 25,
+    "operator_id": "25",
     "operator_name": "Yano Hikaru",
     "operator_address": "459-1111, Motoshuku, Hinohara-mura Nishitama-gun",
     "operator_city": "Tokyo",
@@ -200,7 +200,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 26,
+    "operator_id": "26",
     "operator_name": "Aoyama Yuriko",
     "operator_address": "7-17, Imai 3-chome, Ohme",
     "operator_city": "Tokyo",
@@ -208,7 +208,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 27,
+    "operator_id": "27",
     "operator_name": "Harvey Manning",
     "operator_address": "1188-4-chome Chuohoncho, Adachi-ku",
     "operator_city": "Tokyo",
@@ -216,7 +216,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 28,
+    "operator_id": "28",
     "operator_name": "Zeph Hargraves",
     "operator_address": "5-8, Shiba Koen 3-chome, Minato-ku",
     "operator_city": "Tokyo",
@@ -224,7 +224,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 29,
+    "operator_id": "29",
     "operator_name": "Ralph Roffe",
     "operator_address": "301-1123, Totsukamachi, Shinjuku-ku",
     "operator_city": "Tokyo",
@@ -232,7 +232,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 30,
+    "operator_id": "30",
     "operator_name": "Yolanda Jackson",
     "operator_address": "222-1108, Sotokanda, Chiyoda-ku",
     "operator_city": "Tokyo",
@@ -240,7 +240,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 31,
+    "operator_id": "31",
     "operator_name": "Alaric Vargas",
     "operator_address": "197-1144, Nishishinjuku Shinjuku Airandotawa(34-kai), Shinjuku-ku",
     "operator_city": "Tokyo",
@@ -248,7 +248,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 32,
+    "operator_id": "32",
     "operator_name": "Rafiq Dallal",
     "operator_address": "24 B Zahraa Street, El Maadi",
     "operator_city": "Cairo",
@@ -256,7 +256,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 33,
+    "operator_id": "33",
     "operator_name": "Khalil Mina",
     "operator_address": "Bldg 20 Street 263, New Maadi",
     "operator_city": "Cairo",
@@ -264,7 +264,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 34,
+    "operator_id": "34",
     "operator_name": "Sayyid Seray",
     "operator_address": "Salah Salem Street",
     "operator_city": "Cairo",
@@ -272,7 +272,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 35,
+    "operator_id": "35",
     "operator_name": "Rashod Amir",
     "operator_address": "13 Bassioni, Kholosy Shobra",
     "operator_city": "Cairo",
@@ -280,7 +280,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 36,
+    "operator_id": "36",
     "operator_name": "Raziqa Meer",
     "operator_address": "23 Zaid Street, Abassia Industrial Zone-Abassia",
     "operator_city": "Cairo",
@@ -288,7 +288,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 37,
+    "operator_id": "37",
     "operator_name": "Abby Marsh",
     "operator_address": "117 El-Thawra Street, Heliopolis",
     "operator_city": "Cairo",
@@ -296,7 +296,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 38,
+    "operator_id": "38",
     "operator_name": "Adrian Chasey",
     "operator_address": "1 Osiris Street, Garden City",
     "operator_city": "Cairo",
@@ -304,7 +304,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 39,
+    "operator_id": "39",
     "operator_name": "Stephan Hall",
     "operator_address": "2 Thrawat Street, Giza6",
     "operator_city": "Cairo",
@@ -312,7 +312,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 40,
+    "operator_id": "40",
     "operator_name": "Frank Moreno",
     "operator_address": "46 Bahgat Ali Street, Zamalek",
     "operator_city": "Cairo",
@@ -320,7 +320,7 @@
     "operator_is_joestar": "No"
   },
   {
-    "operator_id": 41,
+    "operator_id": "41",
     "operator_name": "Mike Burke",
     "operator_address": "11 A Mohamed Anis Street, Zamalik",
     "operator_city": "Cairo",

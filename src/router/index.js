@@ -82,9 +82,39 @@ export default new Router({
           default: true,
         },
         {
+          name: 'branches',
+          path: 'branches',
+          component: () => import('../components/Branches.vue'),
+        },
+        {
+          name: 'vehicles',
+          path: 'vehicles',
+          component: () => import('../components/Vehicles.vue'),
+        },
+        {
+          name: 'operators',
+          path: 'operators',
+          component: () => import('../components/Operators.vue'),
+        },
+        {
+          name: 'reserved',
+          path: 'reserved',
+          component: () => import('../components/Reserved.vue'),
+        },
+        {
           name: 'deployed',
           path: 'deployed',
           component: () => import('../components/Deployed.vue'),
+        },
+        {
+          name: 'returned',
+          path: 'returned',
+          component: () => import('../components/Returned.vue'),
+        },
+        {
+          name: 'inoperable',
+          path: 'inoperable',
+          component: () => import('../components/Inoperable.vue'),
         },
         {
           name: 'statistics',

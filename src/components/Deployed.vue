@@ -5,7 +5,7 @@
         <va-input
           class="ma-0"
           :value="term"
-          placeholder="Search by operator name"
+          placeholder="Search by deployment ID"
           @input="search"
           removable
         >
@@ -51,42 +51,42 @@ export default {
     fields () {
       return [{
         name: 'deployment_id',
-        title: 'deployment id',
+        title: 'Deployment ID',
         width: '10%',
         sortField: 'deployment_id',
       }, {
         name: 'reservation_id',
-        title: 'reservation id',
+        title: 'Reservation ID',
         width: '10%',
         sortField: 'reservation_id',
       }, {
         name: 'vehicle_id',
-        title: 'vehicle id',
+        title: 'Vehicle ID',
         width: '10%',
         sortField: 'vehicle_id',
       }, {
         name: 'operator_id',
-        title: 'opearator id',
+        title: 'Operator ID',
         width: '10%',
         sortField: 'operator_id',
       }, {
         name: 'operator_name',
-        title: 'operator name',
+        title: 'Operator name',
         width: '15%',
         sortField: 'operator_name',
       }, {
         name: 'pickup_date',
-        title: 'pickup date',
+        title: 'Pickup date',
         width: '10%',
         sortField: 'pickup_date',
       }, {
         name: 'branch_id',
-        title: 'branch id',
+        title: 'Branch ID',
         width: '10%',
         sortField: 'branch_id',
       }, {
         name: 'return_date',
-        title: 'return date',
+        title: 'Return date',
         width: '10%',
         sortField: 'return_date',
       }, {
@@ -100,7 +100,7 @@ export default {
       }
 
       return this.users.filter(item => {
-        return item.operator_name.toLowerCase().startsWith(this.term.toLowerCase())
+        return item.deployment_id.toLowerCase().startsWith(this.term.toLowerCase())
       })
     },
   },
