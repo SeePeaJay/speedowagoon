@@ -20,36 +20,11 @@
         />
 
         <router-link
-          class="app-navbar__logo mr-3"
+          class="app-navbar__speedowagoon"
           to="/"
         >
-          <va-icon-vuestic />
+          Speedowagoon
         </router-link>
-      </div>
-      <div class="app-navbar__center lg5 md4">
-        <span
-          class="app-navbar__text"
-          :style="{color: this.$themes.gray}"
-        >
-          {{$t('navbar.messageUs')}}&nbsp;
-          <a
-            href="mailto:hello@epicmax.co"
-            target="_blank"
-            class="app-navbar__mailto-link"
-            :style="{color: this.$themes.primary}"
-          >
-            hello@epicmax.co
-          </a>
-        </span>
-        <va-button
-          href="https://github.com/epicmaxco/vuestic-admin"
-          color="#000000"
-          class="app-navbar__button"
-          icon="fa fa-github"
-          target="_blank"
-        >
-          {{$t('navbar.repository')}}
-        </va-button>
       </div>
       <app-navbar-actions
         class="app-navbar__actions md5 lg4"
@@ -65,7 +40,6 @@
 </template>
 
 <script>
-import VaIconVuestic from '../../../iconset/VaIconVuestic'
 import VaIconMenu from '../../../iconset/VaIconMenu'
 import VaIconMenuCollapsed from '../../../iconset/VaIconMenuCollapsed'
 import AppNavbarActions from './components/AppNavbarActions'
@@ -76,7 +50,6 @@ export default {
   mixins: [ColorThemeMixin],
   inject: ['contextConfig'],
   components: {
-    VaIconVuestic,
     VaIconMenu,
     VaIconMenuCollapsed,
     AppNavbarActions,
@@ -211,6 +184,13 @@ $nav-border-side-width: 3.1875rem;
       height: 100%;
       display: block;
     }
+  }
+
+  &__speedowagoon {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #40e583;
   }
 
   &__actions {
