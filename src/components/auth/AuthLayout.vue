@@ -1,8 +1,8 @@
 <template>
   <div class="auth-layout row align-content--center">
     <div class="flex xs12 pa-3 flex-center">
-      <router-link class="py-5 flex-center" to="/">
-        <va-icon-vuestic />
+      <router-link class="py-5 flex-center auth-layout__speedowagoon" to="/">
+        Speedowagoon
       </router-link>
     </div>
 
@@ -14,7 +14,6 @@
             center
           >
             <va-tab>{{ $t('auth.login') }}</va-tab>
-            <va-tab>{{ $t('auth.createNewAccount') }}</va-tab>
           </va-tabs>
 
           <va-separator/>
@@ -29,20 +28,19 @@
 </template>
 
 <script>
-import VaIconVuestic from '../../iconset/VaIconVuestic'
+// import VaIconVuestic from '../../iconset/VaIconVuestic'
 
 const tabs = [
   'login',
-  'signup',
 ]
 
 export default {
   name: 'AuthLayout',
-  components: { VaIconVuestic },
+  // components: { VaIconVuestic },
   data () {
     return {
       selectedTabIndex: 0,
-      tabTitles: ['login', 'createNewAccount'],
+      tabTitles: ['login'],
     }
   },
   computed: {
@@ -72,6 +70,14 @@ export default {
     @include media-breakpoint-down(xs) {
       flex-direction: column;
     }
+  }
+
+  &__speedowagoon {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    color: #40e583;
   }
 }
 </style>
